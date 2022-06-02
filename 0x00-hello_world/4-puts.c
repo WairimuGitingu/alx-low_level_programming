@@ -3,7 +3,7 @@
  * main - is the entry point
  * void - no specific demands
  *
- * puts prints out the required ouput
+ * description/return value - puts prints out the required ouput
  * return- terminates the program
  */
 int main(void)
