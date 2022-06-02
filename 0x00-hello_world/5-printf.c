@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: initializes
+ * main- initializes
  * void: nothing initialized
  * description: output the required statement
  * return: returns the value 0

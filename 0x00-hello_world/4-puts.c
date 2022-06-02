@@ -2,8 +2,8 @@
 /**
  * main - is the entry point
  * @void - void
- *
- *( description- puts prints out the required ouput)?
+ (*
+ *description- puts prints out the required ouput)?
  * return: returns a value of 0
  */
 int main(void)
