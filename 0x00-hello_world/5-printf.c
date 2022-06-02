@@ -5,7 +5,7 @@
  * void: void
  *
  * description:prints out statement
- * result: 0
+ * Result: 0
  */
 
 int main(void)
