@@ -3,8 +3,8 @@
  * main - is the entry point
  * void - no specific demands
  *
- * description/return value - puts prints out the required ouput
- * return- terminates the program
+ * description- puts prints out the required ouput
+ * return- 0
  */
 int main(void)
 {
