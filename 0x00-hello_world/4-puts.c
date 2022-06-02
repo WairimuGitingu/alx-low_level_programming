@@ -4,7 +4,7 @@
  * @void - void
  *
  * description- puts prints out the required ouput
- * return- 0
+ * return:0
  */
 int	main(void)
 {
