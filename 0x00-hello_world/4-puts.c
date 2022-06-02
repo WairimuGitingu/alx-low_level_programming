@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - is the entry point
- * void - no specific demands
+ * @void - void
  *
  * description- puts prints out the required ouput
  * return- 0
