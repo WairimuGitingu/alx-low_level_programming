@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - intializes 
+ * main -intializes
  * description:display text
  *
  * Return:0
