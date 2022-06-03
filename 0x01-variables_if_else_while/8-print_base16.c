@@ -9,11 +9,11 @@
 
 int main(void)
 {
-	char hexa_deximal = "0123456789abcdef";
+	char *hexa_deximal = "0123456789abcdef";
 
-	while (hexa_decimal)
+	while (*hexa_decimal)
 	{
-		putchar(hexa_decimal);
+		putchar(*hexa_decimal++);
 	}
 	putchar('\n');
 	return (0);
