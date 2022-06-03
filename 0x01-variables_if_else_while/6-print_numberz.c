@@ -2,20 +2,18 @@
 
 /**
  * main - initialize entry point
- * declaration : print out usintg putchar
+ * declaration : print digits
  *
- * Result:0
+ * Return:0
  */
 
 int main(void)
 {
 	int num;
 
-	for (num = 0; num < 10; num ++)
-	{
-		putchar(num);
-	}
-
+	num = -1;
+	while (++num < 10)
+		putchar(n + '0');
 	putchar('\n');
 	return (0);
 }
