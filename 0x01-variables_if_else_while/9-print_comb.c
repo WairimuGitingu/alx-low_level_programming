@@ -14,7 +14,8 @@ int main(void)
 	num = -1;
 	while (++num > -1)
 	{
-		putchar(num +'0'',');
+		putchar(num +'0');
+		putchar(',');
 	}
 	putchar('\n');
 	return (0);
