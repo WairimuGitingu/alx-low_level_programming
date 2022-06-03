@@ -4,16 +4,17 @@
  * main - initialize entry point
  * declaration : print alphabets in reverse
  *
- * Result:0
+ * Return:0
+ *
  */
 
 int main(void)
 {
 	char alphabets;
 
-	for (alphabets = 'z'; alphabets >= 'a'; alphabets--)
+	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
 	{
-		putchar(alphabets);
+		putchar(alphabet);
 	}
 	putchar('\n');
 	return (0);
