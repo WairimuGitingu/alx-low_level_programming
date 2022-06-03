@@ -3,16 +3,16 @@
 
 /**
  * main - initialize entry point
- * declaration - print out every letter 
+ * declaration : print out all letters
  *
- * Return:0
+ * Result:0
  */
 
 int main(void)
 {
 	char alphabets;
 
-	for (alphabets = 'a'; alphabets <= 'Z'; alphabets++)
+	for(alphabets = 'a'; alphabets <= 'Z'; alphabets ++)
 	{
 		putchar(alphabets);
 	}
