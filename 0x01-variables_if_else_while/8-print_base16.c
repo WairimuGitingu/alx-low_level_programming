@@ -2,9 +2,9 @@
 
 /**
  * main - initialize entry point
- * declaration : print out hexadecimals using putchar
+ * declaration : print hexadecimals in char
  *
- * Result:0
+ * Return:0
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 
 	while (*hexa)
 	{
-		putchar(*hexa++);
+		putchar(++*hexa);
 	}
 	putchar('\n');
 	return (0);
