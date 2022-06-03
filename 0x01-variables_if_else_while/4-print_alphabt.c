@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <ctype.h>
+
+/**
+ * main - initialize entry point
+ * declaration : print all letters except e and q
+ *
+ * Return:0
+ */
+
+int main(void)
+{
+	char alphabets;
+
+	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	{
+		if (alphabets != 'q' && alphabets != 'e' )
+		{
+			putchar(alphabets);
+		}
+	}
+	putschar('\n');
+	return (0);
+}
