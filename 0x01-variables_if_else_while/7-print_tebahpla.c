@@ -12,9 +12,9 @@ int main(void)
 {
 	char alphabets;
 
-	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
+	for (alphabets = 'z'; alphabets >= 'a'; alphabets--)
 	{
-		putchar(alphabet);
+		putchar(alphabets);
 	}
 	putchar('\n');
 	return (0);
