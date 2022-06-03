@@ -13,7 +13,7 @@ int main(void)
 
 	while (*hexa)
 	{
-		putchar(++*hexa);
+		putchar(*hexa++);
 	}
 	putchar('\n');
 	return (0);
