@@ -2,7 +2,7 @@
 
 /**
  * main - initializes entry point
- * declaration : print all single digit numbers
+ * declaration : print out single digits
  *
  * Result:0
  */
