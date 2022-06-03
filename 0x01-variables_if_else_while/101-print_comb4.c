@@ -9,16 +9,16 @@
 
 int main(void)
 {
-	int a,b,c;
+	int a, b, c;
 
 	a = -1;
-	while (++a < 8 )
+	while (++a < 8)
 	{
 		b = a + 1;
-		while ( b < 9)
+		while (b < 9)
 		{
 			c = b + 1;
-			while ( c < 10)
+			while (c < 10)
 			{
 				putchar(a + '0');
 				putchar(b + '0');
