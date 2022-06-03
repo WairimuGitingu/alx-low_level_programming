@@ -12,13 +12,13 @@ int main(void)
 	int a,b,c;
 	
 	a = -1;
-	while (++a < 7)
+	while (++a < 8)
 	{
 		b =  a + 1;
-		while (b < 8)
+		while (b < 9)
 		{
 			c = b + 1;
-			while ( c < 9)
+			while ( c < 10)
 			{
 				putchar(a + '0');
 				putchar(b + '0');
@@ -27,10 +27,10 @@ int main(void)
 					break;
 				putchar(',');
 				putchar(' ');
+				c++;
 			}
-			c++;
+			b++;
 		}
-		b++;
 	}
 	putchar('\n');
 	return (0);
