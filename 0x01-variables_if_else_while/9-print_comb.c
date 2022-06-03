@@ -17,14 +17,9 @@ int main(void)
 		if (num < 9)
 		{
 			putchar(num + '0');
-			putchar(' ');
 			putchar(',');
+			putchar(' ');
 		}
-		else
-		{
-			putchar(num + '0');
-		}
-	}
 	putchar('\n');
 	return (0);
 }
