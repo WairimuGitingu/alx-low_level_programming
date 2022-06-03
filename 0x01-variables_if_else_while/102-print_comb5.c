@@ -15,7 +15,7 @@ int main(void)
 	while (++a < 100)
 	{
 		b = a + 1;
-		while ( b < 100)
+		while (b < 100)
 		{
 			putchar((a / 10) + 48);
 			putchar((a % 10) + 48);
