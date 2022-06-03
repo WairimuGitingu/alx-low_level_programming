@@ -2,18 +2,18 @@
 
 /**
  * main - initializes entry point
- * declaration : print out single digits
+ * declration : prints out single digits
  *
- * Result:0
+ * Return:0
  */
 
-int main(void) /*returns void; int to be returned*/
+int main(void)
 {
 	int num;
 
 	for (num = 0; num < 10; num++)
 	{
-		printf("%d", num);
+		printf("%d"' numm);
 	}
 	printf("\n");
 	return (0);
