@@ -14,9 +14,16 @@ int main(void)
 	num = -1;
 	while (++num < 10)
 	{
-		putchar(num + '0');
-		putchar(' ');
-		putchar(',');
+		if (num < 9)
+		{
+			putchar(num + '0');
+			putchar(' ');
+			putchar(',');
+		}
+		else
+		{
+			putchar(num + '0');
+		}
 	}
 	putchar('\n');
 	return (0);
