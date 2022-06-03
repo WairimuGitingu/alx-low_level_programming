@@ -1,21 +1,21 @@
 #include <stdio.h>
+
 /**
  * main - initialize entry point
- * declaration : print out digits with putchar
+ * declaration : print out usintg putchar
  *
  * Result:0
  */
 
 int main(void)
 {
-	int n;
+	int num;
 
-	n=-1;
-	while ( n < 10)
+	for (num = 0; num < 10; num ++)
 	{
-		putchar(n + '0');
-		n++;
+		putchar(num);
 	}
+
 	putchar('\n');
 	return (0);
 }
