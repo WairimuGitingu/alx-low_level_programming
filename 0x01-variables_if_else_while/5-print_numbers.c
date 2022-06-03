@@ -7,7 +7,7 @@
  * Result:0
  */
 
-int main(void)
+int main(void) /*returns void; int to be returned*/
 {
 	int num;
 
