@@ -16,9 +16,9 @@ void fibonacci(int n)
 	b = 2;
 	c = 0;
 
-	printf("1,2, ");
+	printf("1, 2, ");
 	n = n - 2;
-	while(n--)
+	while (n--)
 	{
 		printf("%lu", c = a + b);
 		if (n)
@@ -36,7 +36,7 @@ void fibonacci(int n)
  * @void: void
  * description : calls the fibonacci function
  *
- * Result: int
+ * Result:0
  */
 
 int main(void)
