@@ -9,9 +9,8 @@
  * Return:int
  */
 
-int _abs(int)
+int _abs(int c)
 {
-	int c;
 
 	if( c > 0)
 	{
