@@ -2,18 +2,18 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - entry point
+ * declaration : print out alphabets in small letters
  *
- * Return : always 0.
+ * Return:void
  */
 
 void print_alphabet(void)
 {
-	int alphabets;
-
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	int alphabets = 'a';
+	while (alphabets <= 'z')
 	{
-		putchar(alphabets);
+		_putchar(alphabets);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
