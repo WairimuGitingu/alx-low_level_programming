@@ -19,7 +19,7 @@ int print_last_digit(int a)
 	{
 		a = a % 10;
 	}
-	else (!a)
+	else
 	{
 		a = 0;
 	}
