@@ -3,19 +3,20 @@
 
 /**
  * _islower - function name
- * description : checks if it slower
+ * c parameter - variable
+ * description : checks if it caselower
  *
  * Return: int
  */
 
 int _islower(int c)
 {
-	if ( c >= 97 && c <= 122)
+	if (c >= 97 && c <= 122)
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
