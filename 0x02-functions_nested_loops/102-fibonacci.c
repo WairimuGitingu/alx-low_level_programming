@@ -3,7 +3,7 @@
 /**
  * fibonacci - print out first 50 number of fibonacci
  * @n : integer
- * declaration : print out 50 numbers 
+ * declaration : print out 50 numbers
  *
  * Return: n
  */
@@ -32,11 +32,11 @@ void fibonacci(int n)
 }
 
 /**
- * main - entry point
+ * main - calls fibonacci
  * @void: void
  * description : calls the fibonacci function
  *
- * Result:0
+ * Return: 0
  */
 
 int main(void)
