@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * jack_bauer: print every minute of the day of the day
+ * jack_bauer - print every minute of the day of the day
  * starting from 00:00 to 23:59
  * @void: void
  * description: print out every minute
