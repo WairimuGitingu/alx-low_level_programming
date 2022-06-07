@@ -7,19 +7,19 @@
  * Return : always 0.
  */
 
-void print_alphabet(void);
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void)
 {
 	int alphabets;
 
-	for (alphabets = 'a', alphabets <= 'z', alphabets++)
+	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 	{
 		putchar(alphabets);
 	}
-	puchar('\n');
+	putchar('\n');
+}
+
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
