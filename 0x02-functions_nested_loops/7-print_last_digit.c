@@ -11,6 +11,10 @@
 
 int print_last_digit(int a)
 {
-	a = a % 10;
-	return (a);
+	if (a >= 1 && a <= 9)
+	{
+		a = a % 10;
+		a = a % 10;
+		return (a);
+	}
 }
