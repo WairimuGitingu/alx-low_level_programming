@@ -2,15 +2,15 @@
 #include "main.h"
 
 /**
- * jack_bauer: print every minute
- * void: null
- * declaration : print out every minute
+ * jack_bauer: print every minute of the day starting from 00:00 to 23:59
+ * @void: null
+ * description: print out every minute
  * Return: null
  */
 
 void jack_bauer(void)
 {
-	int a,b;
+	int a, b;
 
 	for (a = 0; a < 24; a++)
 	{
