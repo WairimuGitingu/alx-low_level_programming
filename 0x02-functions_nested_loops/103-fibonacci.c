@@ -5,7 +5,7 @@
  * fibonacci_sum - adds values
  * @n : integer
  * declaration : add sum of even numbers of fibonacci
- * 
+ *
  * Return: void
  */
 
