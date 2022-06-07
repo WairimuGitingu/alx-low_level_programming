@@ -14,7 +14,7 @@ void natural(int n)
 
 	while (n--)
 	{
-		if(! (n % 3) || ! (n % 5))
+		if (!(n % 3) || !(n % 5))
 		{
 			sum = sum + n;
 		}
