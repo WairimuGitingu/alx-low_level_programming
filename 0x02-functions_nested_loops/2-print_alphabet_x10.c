@@ -13,14 +13,14 @@ void print_alphabet_x10(void)
 	int alphabets = 'a';
 	int b = 1;
 
-	while (alphabets <= 'z')
+	while (b <= 10)
 	{
-		while (b <=10)
+		while (alphabets <= 'z')
 		{
 			_putchar(alphabets);
 			alphabets++;
-			b++;
 		}
-		_putchar('\n');
+		b++;
 	}
+	_putchar('\n');
 }
