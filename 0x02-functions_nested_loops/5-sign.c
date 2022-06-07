@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_sign : return sign
+ * print_sign - print sign of n
  * @n: int
  *description : return sign according to condition
  *
