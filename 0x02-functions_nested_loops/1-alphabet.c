@@ -7,12 +7,13 @@
  * Return : always 0.
  */
 
-void print_alphabet_x10(void);
+void print_alphabet(void);
 int main(void)
 {
-	print_alphabet_x10();
+	print_alphabet();
 	return (0);
 }
+void print_alphabet(void)
 {
 	int alphabets;
 
