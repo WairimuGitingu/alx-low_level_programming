@@ -3,9 +3,9 @@
 
 /**
  * _isalpha - checks whether alphabets character
- * @c - variable
+ * @c: int
  * description - return 1 if upper or lower
- * return:int
+ * Return: 1 if alphabet 0 otherwise
  */
 
 int _isalpha(int c)
