@@ -3,7 +3,7 @@
 
 /**
  * _islower - function name
- * c : variable
+ * @c : variable
  * description : checks if it caselower
  *
  * Return: int
