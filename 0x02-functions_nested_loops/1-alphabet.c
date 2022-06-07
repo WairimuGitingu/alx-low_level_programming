@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ * print_alphabet - function that returns void
  * main - entry point
  * declaration : print out alphabets in small letters
  *
@@ -11,6 +12,7 @@
 void print_alphabet(void)
 {
 	int alphabets = 'a';
+
 	while (alphabets <= 'z')
 	{
 		_putchar(alphabets);
