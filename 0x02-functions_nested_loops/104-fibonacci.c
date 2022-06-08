@@ -5,71 +5,40 @@
  * print - prints out two integers
  * @a : integer
  * @b : integer
- * description :outputs two integers
+ * description :output 98 fibonacci numbers
  *
- * Return: void
+ * Return:0
  */
 
-void print(unsigned long a, unsigned long b)
+int main(void)
 {
-	static int i = 1;
+	unsigned long int i, j, k, j1, j2, k1, k2;
 
-	if (!a)
+	j = 1;
+	k = 2;
+
+	printf("%lu", j);
+	for (i = 1; i < 91; i++)
 	{
-		printf("%lu, ", b);
+		printf(", %lu", k);
+		k = k + j;
+		j = k - j;
 	}
-	else
+
+	j1 = j / 1000000000;
+	j2 = j % 1000000000;
+	k1 = k / 1000000000;
+	k2 = k % 1000000000;
+
+	for (i = 92; i < 99; ++i)
 	{
-		if (i == 98)
-		{
-			if (b < 10)
-			{
-				printf("%lu0%lu\n", a, b);
-			}
-			else
-			{
-				printf("%lu%lu\n", a, b);
-			}
-		}
-		else
-		{
-			if (right < 10)
-			{
-				printf("%lu0%lu, ", a, b);
-			}
-			else
-			{
-				printf("%lu%lu, ", a, b);
-			}
-		}
+		printf(", %lu", k1 + (k2 / 1000000000));
+		printf("%lu", k2 % 1000000000);
+		k1 = k1 + j1;
+		j1 = k1 - j1;
+		k2 = k2 + j2;
+		j2 = k2 - j2;
 	}
-	i++;
+	printf("\n");
+	return (0);
 }
-
-/**
- * fibonacci - prints first n numbers
- * @n: integer
- * description : print first n fibonacci numbers
- *
- * Return: n
- */
-
-void fibonacci(int n)
-{
-	unsigned long prev_half_a = 0;
-	unsigned long prev_half_b = 0;
-	unsigned long current_half_a = 0;
-	unsigned long current_half_b = 0;
-	unsigned long temp;
-	unsigned long temp_a = 0;
-	unsigned long temp_b = 0;
-	int i;
-
-	prev_half_b = 1;
-	current_half_b = 2;
-	print(prev_half_a, prev_half_b);
-	print(current_half_a, current_half_b);
-
-	for (i = 0; i < n - 2; i++)
-	{
-
