@@ -12,8 +12,8 @@ int main(void)
 	printf("Infinite loop incomin :(\n");
 
 	i = 0;
-/*while : as long as i is going to be zero since there is no increment, it keeps on looping*/
-	while (i < 10)
+
+	while (i < 10) /*i has been initialized to zero and no increment has been inpt and therefore it'll keep looping*/
 	{
 		putchar(i);
 	}
