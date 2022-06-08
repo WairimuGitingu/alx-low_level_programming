@@ -31,7 +31,7 @@ void print_spaces(int num)
 	}
 }
 
-/*
+/**
  * print_num - print the number
  * @num: integer
  * declaration : prints out number repeatedly
@@ -51,8 +51,8 @@ void print_num(int num)
 	}
 }
 
-/*
- * print_times_table - print the n times table, starting with 0
+/**
+ * print_times_table - print out n tables starting from 0
  * @n: int
  * declaration : print out all multiples from 0 to n number of times
  *
