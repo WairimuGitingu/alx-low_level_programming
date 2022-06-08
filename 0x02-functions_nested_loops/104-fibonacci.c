@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * print - prints out two integers
- * @a : integer
- * @b : integer
+ * main - prints out two integers
+ * @void: void
  * description :output 98 fibonacci numbers
  *
  * Return:0
