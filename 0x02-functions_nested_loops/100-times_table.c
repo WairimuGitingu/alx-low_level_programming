@@ -32,7 +32,7 @@ void print_spaces(int num)
 }
 
 /*
- * print_num: prints number
+ * print_num- prints number
  * @num: integer
  * declaration : prints out number repeatedly
  *
@@ -52,7 +52,7 @@ void print_num(int num)
 }
 
 /*
- * print_times_table: prints out the times tables
+ * print_times_table- prints out the times tables
  * @n: int
  * declaration : print out all multiples from 0 to n number of times
  *
