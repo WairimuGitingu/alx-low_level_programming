@@ -74,7 +74,7 @@ void print_times_table(int n)
 				if (b == n)
 					break;
 				_putchar(',');
-				print_spaces( c + a);
+				print_spaces(c + a);
 			}
 			_putchar('\n');
 		}
