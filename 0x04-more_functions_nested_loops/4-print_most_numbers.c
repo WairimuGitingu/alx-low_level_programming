@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print digits between 0 and 9 except 2 and 4
+ * print_most_numbers - print all numbers between 0 and 9 except 2 and 4
  * @void: void
- * description: print out all values except 2 and 4
+ * description print single digits except 2 and 4
  *
  * Return: void
  */
