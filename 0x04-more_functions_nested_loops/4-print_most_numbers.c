@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - print numbers
- * @n : void
+ * @void : void
  *
  * Return:0
  */
