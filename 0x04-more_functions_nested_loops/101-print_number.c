@@ -24,7 +24,7 @@ void print_number(int n)
 	{
 		while (copy / 10 != 0)
 		{
-			copy /= 10, size *=10;
+			copy /= 10, size *= 10;
 		}
 		while (size > 0)
 		{
