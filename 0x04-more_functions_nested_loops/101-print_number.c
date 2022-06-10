@@ -17,14 +17,14 @@ void print_number(int n)
 
 	if (ones < 0)
 	{
-		ones = ones * -1, copy = copy * -1, n = n * -1;
+		ones *= -1, copy *= -1, n *= -1;
 		_putchar('-');
 	}
 	if (copy > 0)
 	{
 		while (copy / 10 != 0)
 		{
-			copy = copy / 10, size - size * 10;
+			copy /= 10, size *=10;
 		}
 		while (size > 0)
 		{
