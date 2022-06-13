@@ -10,8 +10,12 @@
 
 void _puts(char *str)
 {
-	str = "Hello"; /*useless value*/
+	int len = 0;
 
-	_putchar(*str);
+	while ((str + len) != 0)
+	{
+		_putchar(str[len]);
+		len++;
+	}
 	_putchar('\n');
 }
