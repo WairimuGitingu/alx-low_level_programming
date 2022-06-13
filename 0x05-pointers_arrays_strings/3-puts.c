@@ -10,6 +10,7 @@
 
 void _puts(char *str)
 {
+	str[400];
 	str = "Hello"; /*useless value*/
 
 	_putchar(*str);
