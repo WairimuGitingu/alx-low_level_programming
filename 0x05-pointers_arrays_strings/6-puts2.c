@@ -23,7 +23,7 @@ void puts2(char *str)
 	l = len - 1;
 	for (z = 0; z <= l; z++)
 	{
-		if (z / 2 == 0)
+		if (z % 2 == 0)
 		{
 			_putchar(str[z]);
 		}
