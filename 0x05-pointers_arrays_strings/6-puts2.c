@@ -11,7 +11,7 @@
 void puts2(char *str)
 {
 	int len = 0;
-	int l = 0;
+	int l;
 	char *y = str;
 	int z;
 
