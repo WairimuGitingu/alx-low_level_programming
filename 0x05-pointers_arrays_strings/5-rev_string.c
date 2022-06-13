@@ -25,7 +25,7 @@ void rev_string(char *s)
 
 	l = len - 1;
 
-	while(e < ((l / 2) + 1))
+	while (e < ((l / 2) + 1))
 	{
 		x = l - e;
 		n = s[e];
