@@ -2,9 +2,9 @@
 
 /**
  * string_toupper - converts string to upper
- * *:char will be assigned
+ * @s:char will be assigned
  *
- * Return : s[i]
+ * Return:s
  */
 
 char *string_toupper(char *s)
