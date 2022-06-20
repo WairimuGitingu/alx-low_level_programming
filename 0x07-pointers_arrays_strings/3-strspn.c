@@ -1,33 +1,28 @@
 #include "main.h"
 
 /**
- * _strspn - gets the length of a prefic substring
- * @s: string to look into
- * @accept: string with the characters
+ * _strspn- returns length of matching characters
+ * @s: string being scanned
+ * @accept: chataers/ string being looked for
  *
- * Return:length
+ * Return:int
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int x;
-	unsigned int y;
-	unsigned int length;
+	int i;
+	int j;
+	unsigned int length = 0;
 
-	for (x = 0; s[x] != '\0'; x++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		length = 1;
-		for (y = 0; accept[j] != '\0'; y++)
+		for (j = 0; accept[j] != '\0'; i++)
 		{
-			if (s[x] == accept[y])
-			{
-				length = 0;
-				break;
-			}
-
+			if (s[i] == accept[j])
+			       length++;
+			if (accept[j] == '\0')
+				return (length);
 		}
-		if (length == 1)
-			break;
 	}
-	return (x);
-}
+	return (length);
+}	
