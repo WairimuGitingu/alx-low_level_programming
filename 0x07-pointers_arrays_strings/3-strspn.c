@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		length = 1;
 		for (j = 0; accept[j] != '\0' && accept[j] != s[i]; j++)
-			;	
+		{
 			if (s[i] == accept[j])
 			{
 				length;
@@ -28,8 +28,8 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == '\0')
 			{
 				return (length);
-				break;
 			}
+		}
 	}
 	return (length);
 }
