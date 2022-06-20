@@ -18,16 +18,20 @@ unsigned int _strspn(char *s, char *accept)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		length = 1;
-		for (j = 0; accept[j] != '\0'; j++)
+		for (j = 0; accept[j] != '\0' && accept[j] != s[i]; j++)
+			;
 		{	
 			if (s[i] == accept[j])
 			{
-				length = 0;
+				length;
 				break;
 			}
-			if (length == 1)
+			if (s[i] == '\0')
+			{
+				return (length);
 				break;
+			}
 		}
 	}
-	return (i);
+	return (length);
 }
