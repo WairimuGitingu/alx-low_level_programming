@@ -39,7 +39,7 @@ int _sqrt_recursion(int n)
  */
 int is_prime_number(int n)
 {
-	if (n <= 1 || _sqrt_recursioni(n) >= 1)
+	if (n <= 1 || _sqrt_recursion(n) >= 1)
 		return (0);
 	if (_sqrt_recursion(n) == -1)
 		return (1);
