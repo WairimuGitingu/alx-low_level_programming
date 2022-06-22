@@ -24,7 +24,7 @@ int square_root(int high, int low, int n)
 		if (mid * mid > n)
 			return (square_root(low, mid - 1, n));
 	}
-	return (low);
+	return (mid);
 }
 
 /**
