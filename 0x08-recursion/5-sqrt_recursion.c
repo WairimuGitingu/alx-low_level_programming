@@ -9,7 +9,7 @@
  * Return: -1
  */
 
-int square_root(int high, int low, int n)
+int square_root(int low, int high, int n)
 {
 	long mid;
 
@@ -24,7 +24,7 @@ int square_root(int high, int low, int n)
 		if (mid * mid > n)
 			return (square_root(low, mid - 1, n));
 	}
-	return (mid);
+	return (low);
 }
 
 /**
