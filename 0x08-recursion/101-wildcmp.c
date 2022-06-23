@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * substrring_match- compares two strings
+ * substring_match- compares two strings
  * @s1: string to be compared
  * @s2: string that contains *
  * @b: char
