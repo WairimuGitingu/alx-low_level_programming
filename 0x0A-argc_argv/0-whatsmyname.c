@@ -2,8 +2,8 @@
 
 /**
  * main - the function name
- * argc: counts number of arguments
- * argv: the string to be printed out
+ * @argc: counts number of arguments
+ * @argv: the string to be printed out
  *
  * Return: 0
  */
