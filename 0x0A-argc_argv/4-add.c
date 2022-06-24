@@ -33,11 +33,11 @@ int num_checker(char *a)
 /**
  * main - add positive numbers
  * @argc: int
- * @argc: char
+ * @argv: char
  *
  * Return:0
  */
-int main(int argc, char *argc[])
+int main(int argc, char *argv[])
 {
 	int i, num, sum;
 
@@ -48,7 +48,7 @@ int main(int argc, char *argc[])
 		if (num == -1)
 		{
 			printf("Error\n");
-			return(1);
+			return (1);
 		}
 		sum = sum + num;
 	}
