@@ -3,7 +3,7 @@
 
 /**
  * main- main function
- * @argc- counts arguments
+ * @argc: counts arguments
  * @argv: char
  *
  * Return: 0
