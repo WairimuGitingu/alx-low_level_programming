@@ -9,7 +9,7 @@
  * Return: 0
  */
 
-int main(int argc, int argv[])
+int main(int argc, char *argv[])
 {
 	int mul;
 	int a, b;
@@ -22,6 +22,6 @@ int main(int argc, int argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
 	mul = a * b;
-	printf("%d\n", result);
+	printf("%d\n", mul);
 	return (0);
 }
