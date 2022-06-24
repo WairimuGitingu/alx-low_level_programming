@@ -1,14 +1,21 @@
 #include <stdio.h>
-
+#include "main.h"
+#include <unistd.h>
 /**
- * main - Entry point
- * description: outputs statement
+ *_puts - prints out a string
+ *@str: string to be printed out
  *
- *Return: 0
+ * Return: void
  */
 
-int main(void)
+void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	int len = 0;
+
+	while (*(str + len) != '\0')
+	{
+		_putchar(str[len]);
+		len++;
+	}
+	_putchar('\n');
 }
