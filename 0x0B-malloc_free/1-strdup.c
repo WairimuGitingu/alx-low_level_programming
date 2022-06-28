@@ -28,6 +28,7 @@ char *_strdup(char *str)
 	{
 		t[j] = str[i];
 		j++;
+		i++;
 	}
 	return (t);
 }
