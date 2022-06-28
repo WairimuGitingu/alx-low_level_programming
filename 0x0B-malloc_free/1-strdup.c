@@ -24,11 +24,10 @@ char *_strdup(char *str)
 	if (t == NULL)
 		return (NULL);
 	j = 0;
-	while (str[i] != '\0')
+	while (str[j] != '\0')
 	{
-		t[j] = str[i];
+		t[j] = str[j];
 		j++;
-		i++;
 	}
 	return (t);
 }
