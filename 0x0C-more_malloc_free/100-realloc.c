@@ -11,7 +11,7 @@
  * Return: pointer to new allocated memory
  */
 
-void _realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	unsigned char *n;
 	unsigned int i;
