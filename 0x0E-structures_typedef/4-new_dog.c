@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * dog_t n-  creates a new dog
+ * new_dog-  creates a new dog
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
@@ -38,6 +38,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	for (i = 0; i <= ownerLen; i++)
-		d1->owner[i] = owner [i];
+		d1->owner[i] = owner[i];
 	return (d1);
 }
