@@ -5,6 +5,7 @@
  * init_dog - initialize variable of type struct dog
  * @d: dog to be initialized
  * @name: name of dog
+ * @age: age of dog
  * @owner: owner of dog
  *
  * Return: nothing
