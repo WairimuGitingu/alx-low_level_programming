@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * array_iterate - executes a function
+ * array_iterator - executes a function
  * @array: pointer to array
  * @size: size of elements
  * @action:pointer to function
@@ -9,7 +9,7 @@
  * Return: nothing
  */
 
-void array_iterate(int *array, size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	if (array == NULL && action != NULL)
 	{
