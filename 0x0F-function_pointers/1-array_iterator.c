@@ -11,9 +11,14 @@
 
 void array_iterate(int *array, size_t size, void (*action)(int))
 {
-	if (array != NULL && size > 0 && action != NULL)
+	if (array == NULL && action != NULL)
 	{
-			action(*array);
-			array++;
+			return;
+	}
+
+	while (size-- > 0)
+	{
+		action(*array);
+		array++;
 	}
 }
