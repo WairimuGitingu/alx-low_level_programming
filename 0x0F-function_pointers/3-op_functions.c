@@ -34,7 +34,7 @@ int op_sub(int a, int b)
  *op_mul - multiplies two values
  * @a: int
  * @b: int
- * 
+ *
  * Return: multiple
  */
 int op_mul(int a, int b)
