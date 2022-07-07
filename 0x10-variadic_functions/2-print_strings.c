@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_strings: print out strings
+ * print_strings- prints out strings
  * @separator: separates strings
  * @n: int
  *
