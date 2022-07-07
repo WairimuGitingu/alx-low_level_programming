@@ -8,14 +8,14 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 /**
- * struct typ - struct operators
- * @c: char
- * @tp: function
+ * struct printer - struct operators
+ * @symbol: char
+ * @print: function
  */
-typedef struct typ
+typedef struct printer
 {
-	char *c;
-	void (*tp)(va_list var);
-} typ_t;
+	char *symbol;
+	void (*print)(va_list arg);
+}printer_t;
 
 #endif
