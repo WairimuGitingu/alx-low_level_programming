@@ -3,8 +3,8 @@
 #include "lists.h"
 
 /**
- * print_list - prints elements in a list uding single linked list data structure
- * @list_t: type to be declared
+ * print_list - prints elements in a list using
+ *	single linked list data structure
  * @h: pointer
  *
  * Return: number of nodes
