@@ -1,6 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stddef.h>
 /**
  * list-s - type created by struct
  * @str: string to be typed
