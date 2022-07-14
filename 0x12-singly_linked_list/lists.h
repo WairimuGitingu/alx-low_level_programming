@@ -1,6 +1,13 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/**
+ * list-s - type created by struct
+ * @str: string to be typed
+ * @len: length of elements
+ * @next pointer to list_s
+ *
+ */
 typedef struct list_s
 {
 	char *str;
